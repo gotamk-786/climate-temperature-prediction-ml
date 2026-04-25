@@ -1,0 +1,3 @@
+Baseline Model,Tuned Model,Baseline RMSE,Tuned RMSE,RMSE Change,Baseline R2,Tuned R2,R2 Change
+Random Forest,Random Forest Tuned,1.3719,1.4935,0.1216,0.9805,0.9769,-0.0036
+Gradient Boosting,Gradient Boosting Tuned,1.4581,1.4582,0.0001,0.978,0.9779,-0.0

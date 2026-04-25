@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Generated artifacts
+# Large datasets cannot be pushed to normal GitHub without Git LFS.
+data/raw/GlobalLandTemperaturesByCity.csv
+data/processed/cleaned_data.csv
+data/processed/cleaned_temperature_data.csv
+data/processed/south_asia_subset.csv
+
+# Keep final papers, slides, tables, figures, and model artifacts in Git.

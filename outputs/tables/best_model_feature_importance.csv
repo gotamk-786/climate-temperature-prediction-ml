@@ -1,0 +1,16 @@
+Feature,Importance
+num__HistoricalCityMonthMean,0.9853672456969707
+num__Lag12Temperature,0.004531239635178417
+num__Lag1Temperature,0.0031500162710923632
+num__Rolling12MeanTemperature,0.0012412356179471319
+num__AverageTemperatureUncertainty,0.000932983688818568
+num__LongitudeValue,0.0009315478686303527
+num__LatitudeValue,0.0006488617448967783
+num__YearsSince1900,0.0005726856939294295
+num__Year,0.0005668479696081187
+cat__Country_Jamaica,0.0004095309723490451
+num__Month,0.00024271249544002293
+cat__Country_South Africa,0.0001320311262479218
+cat__Season_Autumn,0.00010632768134841504
+num__Quarter,9.686311552648489e-05
+cat__Country_Zimbabwe,9.437948322342917e-05

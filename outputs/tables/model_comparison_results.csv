@@ -1,0 +1,13 @@
+Split Strategy,Model,Tuned,MAE,MSE,RMSE,MAPE,R2 Score
+chronological,Random Forest,No,0.927,1.882,1.372,48.649,0.98
+chronological,XGBoost,No,0.932,1.894,1.376,42.64,0.98
+chronological,Gradient Boosting,No,0.965,2.126,1.458,47.808,0.978
+chronological,Gradient Boosting Tuned,Yes,0.96,2.126,1.458,43.703,0.978
+chronological,Random Forest Tuned,Yes,0.982,2.231,1.493,44.07,0.977
+chronological,Linear Regression,No,1.009,2.391,1.546,56.321,0.975
+chronological,Decision Tree,No,1.04,2.425,1.557,76.755,0.975
+random,Random Forest,No,0.875,1.72,1.312,46.174,0.983
+random,XGBoost,No,0.89,1.743,1.32,47.109,0.983
+random,Decision Tree,No,0.958,2.119,1.456,55.583,0.979
+random,Gradient Boosting,No,0.947,2.154,1.468,46.834,0.978
+random,Linear Regression,No,0.995,2.427,1.558,45.78,0.976

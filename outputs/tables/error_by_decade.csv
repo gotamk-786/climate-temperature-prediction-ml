@@ -1,0 +1,4 @@
+Decade,Rows,MeanAbsoluteError,RootMeanSquaredError,MeanResidual
+1990,5896,0.8868,1.3062,0.0775
+2000,6656,0.9399,1.3794,0.2901
+2010,2448,0.9897,1.4997,0.2618
