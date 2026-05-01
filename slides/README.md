@@ -2,4 +2,5 @@
 
 This folder stores presentation material for the final submission.
 
-- Planned final file: presentation.pptx`n- Current working outline: presentation_outline.md`n
+- `climate_change_prediction_presentation.pptx`: final presentation slides.
+- `script.md`: speaking script for the presentation/video.

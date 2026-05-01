@@ -1,6 +1,6 @@
 # Climate Change Predictions
 
-This repository contains a complete Data Science course project on climate change analysis and city-level temperature prediction using machine learning. The implementation follows the project rules defined in `AGENT.md` and produces reproducible preprocessing, EDA, modeling, tuning, and final evaluation outputs.
+This repository contains a complete Data Science course project on climate change analysis and city-level temperature prediction using machine learning. The notebooks include preprocessing, EDA, modeling, hyperparameter tuning, evaluation, and interpretation for the final submission.
 
 ## Dataset
 - Source: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
@@ -24,22 +24,21 @@ This repository contains a complete Data Science course project on climate chang
   - Gradient Boosting
 
 ## Folder Overview
-- `AGENT.md`: project instructions and acceptance criteria
-- `src/`: reusable project modules
-- `scripts/`: runnable pipeline scripts
-- `notebooks/`: required notebooks for cleaning, EDA, modeling, and final evaluation
+- `notebooks/`: self-contained notebooks for cleaning, EDA, modeling, and final evaluation
+- `src/`: reusable project modules kept for reference
 - `data/raw/`: raw Kaggle dataset
 - `data/processed/`: cleaned data, South Asia subset, modeling sample, and train/test splits
 - `outputs/figures/`: generated charts
 - `outputs/tables/`: generated result tables
 - `outputs/models/`: saved trained models
-- `research-paper/`: report drafting material
+- `paper/`: final research paper and proposal files
+- `slides/`: final presentation material
 
-## Run Order
-1. `python scripts/run_preprocessing.py`
-2. `python scripts/run_eda.py`
-3. `python scripts/run_modeling.py`
-4. `python scripts/run_final_evaluation.py`
+## Notebook Order
+1. `notebooks/01_data_cleaning.ipynb`
+2. `notebooks/02_eda.ipynb`
+3. `notebooks/03_modeling.ipynb`
+4. `notebooks/04_final_evaluation.ipynb`
 
 ## Notes
 - The raw dataset is very large, so the pipeline keeps the cleaned full working dataset for analysis and creates a stratified modeling sample for practical training time.
