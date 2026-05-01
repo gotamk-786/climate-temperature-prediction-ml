@@ -20,5 +20,10 @@ data/raw/GlobalLandTemperaturesByCity.csv
 data/processed/cleaned_data.csv
 data/processed/cleaned_temperature_data.csv
 data/processed/south_asia_subset.csv
+data/processed/chronological_train_split.csv
+data/processed/chronological_test_split.csv
+outputs/models/
+research-paper/
+src/
 
-# Keep final papers, slides, tables, figures, and model artifacts in Git.
+# Keep final papers, slides, notebooks, tables, and figures in Git.

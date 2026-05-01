@@ -25,12 +25,10 @@ This repository contains a complete Data Science course project on climate chang
 
 ## Folder Overview
 - `notebooks/`: self-contained notebooks for cleaning, EDA, modeling, and final evaluation
-- `src/`: reusable project modules kept for reference
 - `data/raw/`: raw Kaggle dataset
-- `data/processed/`: cleaned data, South Asia subset, modeling sample, and train/test splits
+- `data/processed/`: modeling dataset and processed-data notes
 - `outputs/figures/`: generated charts
 - `outputs/tables/`: generated result tables
-- `outputs/models/`: saved trained models
 - `paper/`: final research paper and proposal files
 - `slides/`: final presentation material
 
