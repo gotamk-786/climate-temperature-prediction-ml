@@ -6,6 +6,8 @@ Research Paper Google Docs Link: https://docs.google.com/document/d/1hwGXXwUEiiL
 
 Project Summary Video Link: https://drive.google.com/file/d/1WZxHzLkbjz2U9XTsSsM3JdHZ9Sfu9i8N/view?usp=sharing
 
+Dataset Google Drive Folder: https://drive.google.com/drive/folders/1vqnPzokBO6CJQUL2HxeTlcXNrvcIDpAM?usp=sharing
+
 This repository contains a complete Data Science course project on climate change analysis and city-level temperature prediction using machine learning. The project studies long-term temperature behavior from the Berkeley Earth dataset and builds regression models to predict `AverageTemperature`.
 
 The work is prepared for academic submission through self-contained Jupyter notebooks, generated result tables, visualizations, a final research paper, presentation slides, and a short presentation video.
@@ -29,6 +31,7 @@ The project focuses on:
 
 - Dataset source: Berkeley Earth Climate Change: Earth Surface Temperature Data
 - Kaggle link: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
+- Large raw and processed data files are available in the Google Drive dataset folder linked above because they are too large for normal GitHub upload.
 - Main raw file: `GlobalLandTemperaturesByCity.csv`
 - Target variable: `AverageTemperature`
 - Unit: temperature in Celsius
