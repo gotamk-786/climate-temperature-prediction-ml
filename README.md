@@ -4,6 +4,8 @@ GitHub Repository: https://github.com/gotamk-786/climate-temperature-prediction-
 
 Research Paper Google Docs Link: https://docs.google.com/document/d/1hwGXXwUEiiL-abuMCzCj3rNWqW8fdqDd/edit?usp=drive_link&ouid=104207759870350152119&rtpof=true&sd=true
 
+Project Summary Video Link: https://drive.google.com/file/d/1WZxHzLkbjz2U9XTsSsM3JdHZ9Sfu9i8N/view?usp=sharing
+
 This repository contains a complete Data Science course project on climate change analysis and city-level temperature prediction using machine learning. The project studies long-term temperature behavior from the Berkeley Earth dataset and builds regression models to predict `AverageTemperature`.
 
 The work is prepared for academic submission through self-contained Jupyter notebooks, generated result tables, visualizations, a final research paper, presentation slides, and a short presentation video.
