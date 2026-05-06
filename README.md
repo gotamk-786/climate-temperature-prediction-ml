@@ -1,8 +1,10 @@
 # Climate Change Temperature Prediction
 
+GitHub Repository: https://github.com/gotamk-786/climate-temperature-prediction-ml
+
 This repository contains a complete Data Science course project on climate change analysis and city-level temperature prediction using machine learning. The project studies long-term temperature behavior from the Berkeley Earth dataset and builds regression models to predict `AverageTemperature`.
 
-The work is prepared for academic submission through self-contained Jupyter notebooks, generated result tables, visualizations, a final research paper, a proposal, and presentation slides.
+The work is prepared for academic submission through self-contained Jupyter notebooks, generated result tables, visualizations, a final research paper, presentation slides, and a short presentation video.
 
 ## Project Objective
 
@@ -161,13 +163,7 @@ The research paper is based on the complete data science workflow:
 
 Final paper files are available in:
 
-- `paper/research_paper_final.docx`
-- `paper/research_paper_final.pdf`
-
-The proposal files are also included:
-
-- `paper/research_proposal_final.docx`
-- `paper/research_proposal_final.pdf`
+- `research paper/research_paper_final.docx`
 
 ## Repository Structure
 
@@ -176,8 +172,8 @@ The proposal files are also included:
 - `data/processed/`: final modeling dataset and processed-data notes
 - `outputs/figures/`: generated charts used in analysis and report
 - `outputs/tables/`: generated metric tables and result summaries
-- `paper/`: final research paper and proposal
-- `slides/`: final presentation slides and video script
+- `research paper/`: final IEEE-format research paper
+- `video and slide/`: final presentation slides and recorded presentation video
 - `requirements.txt`: Python package requirements
 
 ## Notebook Order
@@ -195,24 +191,21 @@ The notebooks are self-contained, so the main project logic required for marking
 
 For teacher submission, the important files are:
 
-- Dataset: `data/processed/modeling_dataset.csv`
+- Dataset: `data/raw/GlobalLandTemperaturesByCity.csv`
 - Notebooks:
   - `notebooks/01_data_cleaning.ipynb`
   - `notebooks/02_eda.ipynb`
   - `notebooks/03_modeling.ipynb`
   - `notebooks/04_final_evaluation.ipynb`
 - Research paper:
-  - `paper/research_paper_final.docx`
-  - `paper/research_paper_final.pdf`
-- Proposal:
-  - `paper/research_proposal_final.docx`
-  - `paper/research_proposal_final.pdf`
-- Presentation:
-  - `slides/climate_change_prediction_presentation.pptx`
-- Video: recorded separately for final presentation
+  - `research paper/research_paper_final.docx`
+- Presentation slides:
+  - `video and slide/climate_change_prediction_presentation.pptx`
+- Presentation video:
+  - `video and slide/video1484401397.mp4`
 
 ## Notes
 
-- The raw dataset is large, so the final submitted CSV is the modeling dataset used for machine learning experiments.
+- The raw dataset is included because the submission requires the data file used for the project.
 - All claims in the paper are supported by generated tables and figures inside `outputs/`.
-- The topic matches the climate change bonus domain and includes novelty through climate-specific lag, rolling, anomaly, regional, and historical city-month features.
+- This project is related to the climate change bonus topic. Some extra features such as lag temperature, rolling mean, anomaly, and regional comparison were also used.
